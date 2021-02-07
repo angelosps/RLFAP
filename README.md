@@ -94,6 +94,7 @@ Reference to the related paper about *dom/wdeg heuristic* below.
   $ python3 rlfap.py 11 Min-Conflicts  
 ```
 
+**CODE CITATION: I use _csp.py_, _search.py_ & _utils.py_ from https://github.com/aimacode/aima-python.**
+
 #### REFERENCES
 Boussemart, F., Hemery, F., Lecoutre, C., & Sais, L. (2004). Boosting systematic search by weighting constraints. In ECAI (Vol. 16, pp. 146-150) (http://www.frontiersinai.com/ecai/ecai2004/ecai04/pdf/p0146.pdf)
-
