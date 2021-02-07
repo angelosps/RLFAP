@@ -79,6 +79,20 @@ Reference to the related paper about *dom/wdeg heuristic* below.
 | 6-w2 | UNSAT | ~1.1 | 1200 | 1641059 | 82 |
 | 7-w1-f4 | UNSAT | ~1.2 | 1400 | 1499578 | 64 |
 
+## Run instructions
+
+```bash
+  $ python3 rlfap.py <instance> <method>
+```  
+
+*i.e., for the instance "11" run each of the methods (FC/MAC/FC-CBJ/Min-Conflicts) as follows:*
+
+```bash
+  $ python3 rlfap.py 11 FC              
+  $ python3 rlfap.py 11 MAC             
+  $ python3 rlfap.py 11 FC-CBJ          
+  $ python3 rlfap.py 11 Min-Conflicts  
+```
 
 #### REFERENCES
 Boussemart, F., Hemery, F., Lecoutre, C., & Sais, L. (2004). Boosting systematic search by weighting constraints. In ECAI (Vol. 16, pp. 146-150) (http://www.frontiersinai.com/ecai/ecai2004/ecai04/pdf/p0146.pdf)
