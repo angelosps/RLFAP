@@ -79,7 +79,7 @@ Reference to the related paper about *dom/wdeg heuristic* below.
 | 6-w2 | UNSAT | ~1.1 | 1200 | 1641059 | 82 |
 | 7-w1-f4 | UNSAT | ~1.2 | 1400 | 1499578 | 64 |
 
-## Run instructions
+## Usage
 
 ```bash
   $ python3 rlfap.py <instance> <method>
