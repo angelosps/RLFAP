@@ -196,9 +196,9 @@ def rlfap_constraint(A, a, B, b):
 def rlfap_parse():
     args = list(sys.argv)
     myfiles = []
-    myfiles.append(str('var'+args[1]+'.txt'))
-    myfiles.append(str('dom'+args[1]+'.txt'))
-    myfiles.append(str('ctr'+args[1]+'.txt'))
+    myfiles.append(str('../instances/var'+args[1]+'.txt'))
+    myfiles.append(str('../instances/dom'+args[1]+'.txt'))
+    myfiles.append(str('../instances/ctr'+args[1]+'.txt'))
 
     # reading the variables from file var<instanceID>.txt
     variables = []
